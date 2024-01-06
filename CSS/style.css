@@ -732,6 +732,9 @@ swiper-container {
 }
 
 @media screen and (max-width: 600px){
+    .logo{
+        margin-left: .1rem;
+    }
     swiper-container{
         width: 300px;
         top: 50%;
@@ -740,12 +743,53 @@ swiper-container {
     .home .home-content h4{
         font-size: 1.35rem;
     }
+    .heading{
+        font-size: 2rem;
+    }
+
+    .about .about-container .about-content {
+        padding: .5rem .8rem;
+        margin: auto;
+    }
+    .about .about-img {
+        height: 50vh;
+        text-align: center;
+    }
+    .naql-afsh .naql-container .naql-content,
+.packaging .packaging-container .packaging-content{
+    padding: 1rem;
+}
+    .naql-afsh .naql-container .naql-content h3,
+.packaging .packaging-container .packaging-content h3{
+    font-size: 1.5rem;
+}
+
+.naql-afsh .naql-container .naql-content p,
+.packaging .packaging-container .packaging-content p{
+    padding-left: .5rem ;
 
 }
 
-@media screen and (max-width: 600px){
+.naql-afsh .naql-container .naql-img,
+.packaging .packaging-container .packaging-img{
+    height: 50vh;
+}
+
+.naql-afsh .naql-container .naql-img img,
+.packaging .packaging-container .packaging-img img{
+    width: 90%;
+}
+}
+
+@media screen and (max-width: 500px){
     swiper-container{
         top: 55%;
         width: 250px;
+        left: 18%;
     }
+    .about .about-img img{
+        width: 90%;
+    }
+
+
 }
